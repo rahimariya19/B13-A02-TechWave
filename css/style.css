@@ -14,7 +14,6 @@ body{
     padding: 0;
 }
 .container{
-    /* Image */
     width: 1440px;
     height: 760px;
     /* border: 2px solid red; */
@@ -209,3 +208,61 @@ text-transform: capitalize;
     margin-bottom: 120px;
 }
 /* About the Podcast end */
+
+/* footer */
+.footer-container{
+    background-image: url(../assets/footer-bg.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+     max-width: 1440px;
+    min-height: 412px;
+    margin: 0 auto;
+    margin-bottom: 100px;
+    /* align-items: center; */
+}
+
+
+.footer-bg{
+    /* justify-content: center; */
+    /* align-items: center; */
+    text-align: center;
+    
+    /* justify-items: center; */
+}
+.footer-icon{
+    display: flex;
+    gap: 8px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.footer-content{
+    display: flex;
+    gap: 40px;
+    flex-direction: row;
+    justify-content: center;
+    
+ 
+}
+
+.footer-p{
+    color: #FFFFFF;
+    opacity: 0.6;
+    font-family: Inter;
+    font-style: Medium;
+    font-size: 16px;
+    font-weight: 500;
+
+}
+
+.footer-last{
+    text-align: center;
+    margin-top: 30px;
+     color: #FFFFFF;
+    opacity: 0.6;
+    font-family: Inter;
+    font-style: Medium;
+    font-size: 16px;
+    font-weight: 500;
+}
