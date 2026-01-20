@@ -33,6 +33,10 @@ body{
     font-size: 30px;
     font-weight: 800;
 }
+.ham-burger{
+    color: white;
+    display: none;
+}
 .nav-content{
     display: flex;
     gap: 32px;
@@ -208,6 +212,20 @@ text-transform: capitalize;
     margin-bottom: 120px;
 }
 /* About the Podcast end */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -394,3 +412,151 @@ text-transform: capitalize;
     font-size: 16px;
     font-weight: 500;
 }
+
+
+
+@media (max-width: 576px) {
+
+  /* Global */
+  body {
+    overflow-x: hidden;
+  }
+
+  /* Container fix */
+  .container,
+  .header-container,
+  .footer-container {
+    width: 100%;
+    max-width: 100%;
+  }
+  .ham-burger {  
+        display: block; 
+        margin-left: auto; 
+    }  
+
+  .nav-container {
+    grid-template-columns: 1fr;
+    margin-left: 0;
+    gap: 16px;
+    text-align: center;
+  }
+
+  .nav-content {
+    /* justify-content: center;
+    flex-wrap: wrap; */
+    display: none;
+  }
+
+  .subscribe {
+    margin-left: 0;
+  }
+
+  .banner-mdl-img,
+  .banner-mic {
+    display: none;
+  }
+
+  .tech-wave-h {
+    font-size: 36px;
+  }
+
+  .tech-wave-p {
+    font-size: 14px;
+    padding: 0 16px;
+  }
+
+  .banner-btn {
+    flex-direction: column;
+    margin-left: 0;
+    align-items: center;
+    gap: 12px;
+  }
+
+  .podcast-h {
+    font-size: 32px;
+  }
+
+  .podcast-p {
+    font-size: 14px;
+    padding: 0 16px;
+  }
+
+  .podcast-number {
+    grid-template-columns: 1fr 1fr;
+    margin-left: 0;
+    gap: 24px;
+  }
+
+  .podcast-content {
+    font-size: 32px;
+  }
+
+  .podcast-content-p {
+    font-size: 12px;
+  }
+
+  .featured-title {
+    font-size: 32px;
+  }
+
+  .card-content {
+    grid-template-columns: 1fr;
+    margin-left: 0;
+    gap: 24px;
+  }
+
+  .card {
+    width: 100%;
+    height: auto;
+  }
+
+  iframe {
+    width: 100%;
+    height: 200px;
+  }
+
+  .host {
+    font-size: 32px;
+  }
+
+  .host-content {
+    flex-direction: column;
+    padding: 16px;
+    text-align: center;
+  }
+
+  .alex {
+    font-size: 24px;
+    text-align: center;
+  }
+
+  .alex-p {
+    font-size: 14px;
+    text-align: center;
+  }
+
+  .host-img {
+    justify-content: center;
+    display: flex;
+    gap: 12px;
+  }
+
+  .footer-content {
+    margin-top: 200px;
+    display: grid;
+    flex-direction: column;
+    grid-template-columns: repeat(2,2fr);
+    align-items: center;
+    gap: 16px;
+  }
+
+  .footer-icon {
+    justify-content: center;
+  }
+
+  .footer-last {
+    font-size: 14px;
+    padding: 0 12px;
+  }
+}
+
