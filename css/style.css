@@ -145,7 +145,7 @@ body{
 .podcast-container{
     /* border: 2px solid red; */
     margin: 0 auto;
-    max-width: 1440px;
+    max-width: 1200px;
     text-align: center;
     margin-bottom: 50px;
 
@@ -215,8 +215,8 @@ text-transform: capitalize;
  /* Featured Episodes start */
  .featured-container{
 
-    border: 2px solid red;
-    max-width: 1440px;
+    /* border: 2px solid red; */
+    max-width: 1200px;
     height: 1200px;
     margin-bottom: 120px;
     margin: 0 auto;
@@ -243,7 +243,8 @@ text-transform: capitalize;
 .card-content{
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    margin-left: 55px;
+    /* margin-left: 55px; */
+    margin-left: 10px;
 }
 
  .video{
@@ -281,6 +282,55 @@ text-transform: capitalize;
 
  }
 
+ /* host */
+ .host{
+    color: #FFFFFF;
+    font-family: Inter;
+    font-style: Bold;
+    font-size: 48px;
+    font-weight: 700;
+    text-align: center;
+    text-transform: capitalize;
+    margin-top: 130px;
+    margin-bottom: 40px;
+ }
+.host-content{
+    display: flex;
+    flex-direction: row;
+    gap: 24px;
+    padding: 40px;
+}
+
+.alex{
+    color: #FFFFFF;
+    
+    margin-bottom: 16px;
+    margin-top: 20px;
+    font-family: Inter;
+    font-style: Bold;
+    font-size: 32px;
+    font-weight: 700;
+    text-align: left;
+    text-transform: capitalize;
+}
+.alex-p{
+    color: #FFFFFF;
+    opacity: 0.7;
+    font-family: Inter;
+    font-style: Regular;
+    font-size: 16px;
+    font-weight: 400;
+    text-align: left;
+    margin-bottom: 16px;
+
+
+}
+
+.host-icon{
+    border: 2px solid #533C72;
+    padding: 15px;
+    border-radius: 30px;
+}
 /* Featured Episodes end */
 
 
