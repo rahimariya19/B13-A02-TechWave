@@ -147,7 +147,7 @@ body{
     margin: 0 auto;
     max-width: 1440px;
     text-align: center;
-    margin-bottom: 200px;
+    margin-bottom: 50px;
 
 }
 
@@ -209,16 +209,94 @@ text-transform: capitalize;
 }
 /* About the Podcast end */
 
+
+
+
+ /* Featured Episodes start */
+ .featured-container{
+
+    border: 2px solid red;
+    max-width: 1440px;
+    height: 1200px;
+    margin-bottom: 120px;
+    margin: 0 auto;
+ }
+
+ .featured-title{
+    color: #FFFFFF;
+    font-family: Inter;
+    margin-top: 100px;
+    font-style: Bold;
+    font-size: 48px;
+    font-weight: 700;
+    text-align: center; 
+    text-transform: capitalize;
+    margin-bottom: 40px;
+ }
+
+ .card{
+    width: 383px;
+    height: 440px;
+    border-radius: 10px;
+    background-color: #250D44;    
+ }
+.card-content{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    margin-left: 55px;
+}
+
+ .video{
+    border-radius: 10px;
+
+
+ }
+ .card-title{
+    padding: 24px;
+ }
+ .card-h{
+    margin-bottom: 12px;
+    color: #FFFFFF;
+    font-family: Inter;
+    font-style: Bold;
+    font-size: 24px;
+    font-weight: 700;
+    text-align: left;
+ }
+ .card-p{
+    color: #FFFFFF;
+    opacity: 0.6;
+    font-family: Inter;
+    font-style: Regular;
+    font-size: 16px;
+    font-weight: 400;
+    text-align: left;
+    margin-bottom: 12px;
+
+ }
+ .card-time{
+    display: flex;
+    gap: 8px;
+    color: #00FF88;
+
+ }
+
+/* Featured Episodes end */
+
+
+
+
 /* footer */
 .footer-container{
     background-image: url(../assets/footer-bg.png);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-     max-width: 1440px;
+    max-width: 1440px;
     min-height: 412px;
     margin: 0 auto;
     margin-bottom: 100px;
+    margin-top: 120px;
     /* align-items: center; */
 }
 
